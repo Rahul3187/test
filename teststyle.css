@@ -1,0 +1,210 @@
+body{
+    overflow:scroll;
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 100%;
+    height: 550px;
+    margin: 0%;
+    object-fit: cover;
+    background-color: rgba(222, 218, 218, 0.605);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+}
+.content
+{
+    width: 100%;
+    text-align: center;
+    
+}
+.content h1 {
+font-size: 95px;
+margin-left: 250px;
+}
+.one {
+font-size: 25px;
+color: red;
+border:none;
+background-color: white;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 15px;
+padding-bottom: 15px;
+height: fit-content;
+width: fit-content;
+
+}
+.two {
+    font-size: 25px;
+color: white;
+border:none;
+background-color:red;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 15px;
+padding-bottom: 15px;
+height: fit-content;
+width: fit-content;
+
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 250px;
+}
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 250px;
+}
+.background
+{
+    width: 100%;
+    height: 550px;
+    margin: 0%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+.three h1 {
+    text-align: center;
+    font-family: poppins;
+    font-size: 50px;
+    color: red;
+    margin: 20px;
+}
+.three p {
+    text-align: center;
+    font-size: 25px;
+    font-family: poppins;
+}
+#main{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white
+}
+section .card .image{
+    height: 350px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 30px;
+    border: none;
+    background-color: rgb(237, 237, 239);
+}
+section .card .image img{
+    height: 175px;
+    width: 125px;
+    object-fit: cover;
+    margin-right: 150px;
+}
+.card{
+    width: 100%;
+    margin-top:px;
+    border-radius: 5px;
+    background-color:white
+}
+.card .card-content{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    position: relative;
+}
+.swiper{
+    width: 1000px;
+    margin-top: -50px;
+}
+.section{
+    position: relative;
+}
+.head{
+    position: relative;
+    display: flex;
+    align-items:center;
+    justify-content: end;
+    margin-top: -150px;
+    text-align: start;
+    font-size: 25px;
+
+}
+.name .pain{
+margin-top: 50px;
+text-align:center;
+font-size: medium;
+}
+.shot{
+    margin-top: 50px;
+    padding: 5px 80px;
+    font-size: medium;
+    border-color: 1px solid gray;
+}
+ .gallary{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;width: 100%;
+    margin-top: 50px;
+
+ }
+ .gallary a{
+    margin-left: 50px;
+    margin: 5px;
+    overflow: hidden;
+ }
+ .gallary a img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+ }
+ .gallary2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;width: 100%;
+    margin-top: 0px;
+ }
+ .gallary2 a{
+    margin-left: 50px;
+    margin: 5px;
+    overflow: hidden;
+ }
+ .gallary2 a img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+ }
+ .add{
+    height: 100px;
+    width: 305px;
+    margin-left: ;
+ }
+ .sub{
+    height: 100px;
+    width: 150px;
+ }
+ .max{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+ }
+ .mini,button{
+    padding: 5px 100px;
+    font-size: medium;
+    font-weight: 500;
+    background-color: white;
+    border: 1px solid gray;
+ }
+
+
+

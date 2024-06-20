@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/teststyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css" />
+</head>
+<body>
+    <div class="container">
+
+        <video autoplay muted loop  class="background">
+        <source src="video/video_01.mp4" type="video/mp4">
+        </video>
+        <div class="content">
+            <h1>Lorem ipsum <span style="color: red;">dolor</span></h1>
+            <p></p>
+            <button class="one">Explore ></button><br>
+            <button class="two">Explore ></button>
+
+
+        </div>
+
+    </div>
+    <div class="three">
+        <h1>Section title goes here</h1>
+        <p></p>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod<br> 
+            tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+    </div>
+  <div id="main">
+    <section>
+      <div class="swiper mySwiper container">
+        <div class="swiper-wrapper content">
+          <div class=" swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="image/300 (10).jpeg" alt="300">
+                <div class="name">
+                  <span class="head">John <br>Designation<br>
+                    Division</span><br>
+                    <p class="pain">“ Lorem ipsum dolor sit amet, 
+                      consectetuer adipiscing elit, sed diam 
+                      nonummy nibh euismod tincidunt ut 
+                      laoreet dolore magna aliquam era</p>
+                    <button class="shot">Explore ></button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class=" swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="image/300 (1).jpeg" alt="300">
+                <div class="name">
+                  <span class="head">Jane <br>Designation<br>
+                    Division</span><br>
+                    <p class="pain">“ Lorem ipsum dolor sit amet, 
+                      consectetuer adipiscing elit, sed diam 
+                      nonummy nibh euismod tincidunt ut 
+                      laoreet dolore magna aliquam era</p>
+                    <button class="shot">Explore ></button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class=" swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="image/300.jpeg" alt="300">
+                <div class="name">
+                  <span class="head">Jeremy <br>Designation<br>
+                    Division</span><br>
+                    <p class="pain">“ Lorem ipsum dolor sit amet, 
+                      consectetuer adipiscing elit, sed diam 
+                      nonummy nibh euismod tincidunt ut 
+                      laoreet dolore magna aliquam era</p>
+                    <button class="shot">Explore ></button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class=" swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="image/300 (10).jpeg" alt="300">
+                <div class="name">
+                  <span class="head">John <br>Designation<br>
+                    Division</span><br>
+                    <p class="pain">“ Lorem ipsum dolor sit amet, 
+                      consectetuer adipiscing elit, sed diam 
+                      nonummy nibh euismod tincidunt ut 
+                      laoreet dolore magna aliquam era</p>
+                    <button class="shot">Explore ></button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class=" swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="image/300 (1).jpeg" alt="300">
+                <div class="name">
+                  <span class="head">Jane <br>Designation<br>
+                    Division</span><br>
+                    <p class="pain">“ Lorem ipsum dolor sit amet, 
+                      consectetuer adipiscing elit, sed diam 
+                      nonummy nibh euismod tincidunt ut 
+                      laoreet dolore magna aliquam era</p>
+                    <button class="shot">Explore ></button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class=" swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="image/300.jpeg" alt="300">
+                <div class="name">
+                  <span class="head">Jeremy <br>Designation<br>
+                    Division</span><br>
+                    <p class="pain">“ Lorem ipsum dolor sit amet, 
+                      consectetuer adipiscing elit, sed diam 
+                      nonummy nibh euismod tincidunt ut 
+                      laoreet dolore magna aliquam era</p>
+                    <button class="shot">Explore ></button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      centeredSlides: false,
+      slidesPerGroupSkip: 1,
+      grabCursor: true,
+      keyboard: {
+        enabled: true,
+      },
+      breakpoints: {
+        769: {
+          slidesPerView: 3,
+          slidesPerGroup: 2,
+        },
+      },
+      scrollbar: {
+        el: ".swiper-scrollbar",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+  </div>
+  <div class="three">
+    <h1>Section title goes here</h1>
+    <p></p>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod<br> 
+        tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+</div>
+<div class="gallary">
+  <a href="image/image-03.jpg" class="add">
+    <img src="image/image-03.jpg" alt="">
+  </a>
+  <a href="image/image-02.jpg" class="sub">
+    <img src="image/image-02.jpg" alt="">
+  </a>
+  <a href="image/image-01.jpg" class="sub">
+    <img src="image/image-01.jpg" alt="">
+  </a>
+  <a href="image/image-03.jpg" class="add">
+    <img src="image/image-03.jpg" alt="">
+  </a>
+</div>
+<div  class="gallary2">
+  <a href="image/image-04.jpg" class="sub">
+    <img src="image/image-04.jpg" alt="">
+  </a>
+  <a href="image/image-05.jpg" class="sub">
+    <img src="image/image-05.jpg" alt="">
+  </a>
+  <a href="image/image-06.jpg" class="add">
+    <img src="image/image-06.jpg" alt="">
+  </a>
+  <a href="image/image-04.jpg" class="sub">
+    <img src="image/image-04.jpg" alt="">
+  </a>
+  <a href="image/image-05.jpg" class="sub">
+    <img src="image/image-05.jpg" alt="">
+  </a>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+<script>
+  lightGallery(document.querySelector('.gallary'))
+  lightGallery(document.querySelector('.gallary2'))
+  
+</script>
+<div class="max">
+  <button class="mini">Explore ></button>
+</div>
+</body>
+</html>
